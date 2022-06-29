@@ -1,0 +1,40 @@
+>>> a = 10
+>>> a + b
+Traceback (most recent call last):
+  File "<pyshell#17>", line 1, in <module>
+    a + b
+NameError: name 'b' is not defined
+>>> b = 55
+>>> a + b
+65
+>>> a - b
+-45
+>>> a/b
+0.18181818181818182
+>>> a**b
+10000000000000000000000000000000000000000000000000000000
+>>> n = a/b
+>>> n
+0.18181818181818182
+>>> abs n
+SyntaxError: invalid syntax
+>>> abs(n)
+0.18181818181818182
+>>> conjugate(n)
+Traceback (most recent call last):
+  File "<pyshell#27>", line 1, in <module>
+    conjugate(n)
+NameError: name 'conjugate' is not defined
+>>> n.conjugate()
+0.18181818181818182
+>>> a.conjugate
+<built-in method conjugate of int object at 0x7fa675521a50>
+>>> a.conjugate()
+10
+>>> round(n)
+0
+>>> pow a,b
+SyntaxError: invalid syntax
+>>> pow(a,b)
+10000000000000000000000000000000000000000000000000000000
+>>> 

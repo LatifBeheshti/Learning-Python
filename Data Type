@@ -1,0 +1,35 @@
+*Numerical Data is used to deal with numbers 
+*int
+*float
+*comples 
+>>> *to find the category
+SyntaxError: invalid syntax
+>>> a = 1
+>>> a
+1
+>>> a()
+Traceback (most recent call last):
+  File "<pyshell#3>", line 1, in <module>
+    a()
+TypeError: 'int' object is not callable
+>>> type (a)
+<class 'int'>
+>>> a = "Latif"
+>>> a
+'Latif'
+>>> type(a)
+<class 'str'>
+>>> a = 1.5
+>>> a
+1.5
+>>> type(a)
+<class 'float'>
+>>> a = 1.25b
+SyntaxError: invalid syntax
+>>> a = 1.25j
+>>> 
+>>> a
+1.25j
+>>> type(a)
+<class 'complex'>
+>>> 

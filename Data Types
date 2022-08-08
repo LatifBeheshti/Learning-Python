@@ -1,0 +1,91 @@
+>>> a = 1
+>>> a
+1
+>>> type (a)
+<class 'int'>
+>>> a = 1.5
+>>> a
+1.5
+>>> type(a)
+<class 'float'>
+>>> a = 1+0j
+>>> a
+(1+0j)
+>>> type(a)
+<class 'complex'>
+>>> a = 9
+>>> b = 5
+>>> a + b
+14
+>>> a/b
+1.8
+>>> a*b
+45
+>>> b/a
+0.5555555555555556
+>>> a-b
+4
+>>> b-a
+-4
+>>> a = 9.5555555847493
+>>> a
+9.5555555847493
+>>> abs(a)
+9.5555555847493
+>>> round(a)
+10
+>>> a = 9.33333365849
+>>> round (a)
+9
+>>> a**b
+70824.57200778868
+>>> b**a
+3339798.5186340464
+>>> pow(a,b)
+70824.57200778868
+>>> pow(b,a)
+3339798.5186340464
+>>> 
+>>> *Bitwise operations on integers:
+	
+SyntaxError: invalid syntax
+>>> a&b
+Traceback (most recent call last):
+  File "<pyshell#29>", line 1, in <module>
+    a&b
+TypeError: unsupported operand type(s) for &: 'float' and 'int'
+>>> a = 8
+>>> b = 8
+>>> a&b
+8
+>>> a|b
+8
+>>> b = 9
+>>> a|b
+9
+>>> c = 10
+>>> a|b|c
+11
+>>> a|c
+10
+>>> b|c
+11
+>>> b = 8
+>>> *XOR
+SyntaxError: can't use starred expression here
+>>> a^b
+0
+>>> c^b
+2
+>>> c^a
+2
+>>> a^c
+2
+>>> #String
+>>> a = "My name is Latif"
+>>> a
+'My name is Latif'
+>>> print(a)
+My name is Latif
+>>> type(a)
+<class 'str'>

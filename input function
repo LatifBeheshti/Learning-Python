@@ -1,0 +1,7 @@
+name = input ('Please inter your name  ')
+f_color = input( 'what is your fav color ? ' )
+birth_year = input ('please inter your birth year ')
+age = 2022 - int (birth_year)
+whight_kg = input ('please inter your wieght in kg ')
+whight_lbs = int(whight_kg) * 2
+print ('hi ' + name + 'jan! ' + 'your age is ' + str (age) + ',' + ' and your fav color is ' + f_color + 'and you have ' +  str (whight_lbs) + ' lbs' + ' whight' +'.')

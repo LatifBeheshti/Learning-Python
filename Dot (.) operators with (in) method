@@ -1,0 +1,29 @@
+#with len we can inforce on the numbers of charachters
+course = 'Python for Beginners'
+print (len(course))
+
+#upper method is a way to change characters to upper cases and we use (.) operator.
+course = 'Python for Beginners'
+print ( course.upper())
+
+# Converting characters to lower case and we use (.) operator.
+course = 'Python for Beginners'
+print ( course.lower())
+
+#Find
+course = 'Python for Beginners'
+print ( course.find('p'))
+
+#Replace (case sensitive)
+course = 'Python for Beginners'
+print ( course. replace('P', 'F'))
+
+course = 'Python for Beginners'
+print ( course. replace('Python for Beginners','Python for Absolute Beginners'))
+
+#in operator is used for chicking of existance of a charachter/s
+#in operator is produces a boolian value and it shows that (do we have this or not?)
+
+print ('Python' in course)
+
+print ('Kabul' in course)

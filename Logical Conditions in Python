@@ -1,0 +1,14 @@
+# Logical Operators: We Use them when we have multiple conditions.
+has_high_income = True
+has_good_cridet = False
+
+# AND: Both conditions must be True or False
+if has_high_income and has_good_cridet:
+# If both conditions are true then pint this message:
+    print ("Eligible for loan")
+
+# OR: At least one of the conditions Should be True
+if has_high_income or has_good_cridet:
+    print("Eligible for loan")
+
+#NOT: Another logical operator which changes any boolean value we given

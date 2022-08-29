@@ -1,0 +1,14 @@
+# If the name is less than 4 characters long:
+# print "name must be at least 4 characters"
+# otherwise if it's more than 20 characters long:
+# print "name can be a maximum of 20 characters"
+# otherwise print "name looks good!"
+
+name = "Abdul Latif"
+
+if len(name) < 4:
+    print("name must be at least 4 characters")
+elif len(name) > 20:
+    print("name can be a maximum of 20 characters")
+else:
+    print("name looks good!")

@@ -1,0 +1,7 @@
+# Comparison Operators:
+# We use it when we want to compare a variable with a value.
+temperature = 45
+if temperature > 30:
+    print("It's a hot day")
+else:
+    print("It's not a hot day, enjoy nice weather")

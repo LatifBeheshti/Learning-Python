@@ -1,0 +1,22 @@
+import random
+number = random.randrange(1, 50)
+guess = int(input(" For start guess a number in between 1 and 50: "))
+score = 10
+while guess != number:
+    score = score - 1
+    print(" Your score is " + str(score))
+    if score < 1:
+        print("You Lose")
+        exit()
+    if guess < number:
+        print("you guessed the number lower  guess a higher one!")
+        guess = int(input("Guess a number in between 1 and 50: "))
+    if guess > number:
+        print("you guessed the number higher  guess a lower one!")
+        guess = int(input("Guess a number in between 1 and 50: "))
+    if  guess == number:
+        print("Wowww...You win! the random number was: " + str(number))
+        exit()
+    elif score == 3:
+        print("Becareful, Your loosing the Game!")
+
